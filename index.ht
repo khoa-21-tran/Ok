@@ -6,7 +6,10 @@
    <h1>THỜI KHOÁ BIỂU</h1>
    <table>
      <tr>
-       <th>Tiết</th> <th>Thứ hai</th> <
+       <th>Tiết</th> <th>Thứ hai</th> <th>Thứ Ba</th>
+     </tr>
+     <tr>
+       <td>1</td> <td>Chào cờ</td> <td> Toán</td>
      </tr>
    </table>
  </body> 
