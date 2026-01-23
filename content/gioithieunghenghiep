@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Giới thiệu nghề nghiệp</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      background-color: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: tomato;
+    }
+
+    h2 {
+      color: #2c7be5;
+      margin-top: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 20px;
+    }
+
+    img {
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+
+    a {
+      color: tomato;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      color: gray;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>GIỚI THIỆU NGHỀ NGHIỆP</h1>
+
+    <table>
+      <tr>
+        <td width="30%" style="text-align:center;">
+          <img src="../images/bacsi_ranghammat.png" width="200" alt="Bác sĩ Răng Hàm Mặt">
+        </td>
+
+        <td>
+          <h2>Nghề nghiệp</h2>
+          Bác sĩ Răng Hàm Mặt – người thăm khám, chẩn đoán và điều trị các bệnh lý về răng, hàm và khuôn mặt, góp phần bảo vệ sức khỏe và mang lại nụ cười cho mọi người.
+
+          <h2>Lý do chọn nghề</h2>
+          Em chọn nghề bác sĩ Răng Hàm Mặt vì mong muốn được chăm sóc sức khỏe răng miệng cho cộng đồng. Đây là nghề cao quý, có ý nghĩa nhân văn và phù hợp với sở thích của bản thân.
+
+          <h2>Phẩm chất cần có</h2>
+          Người bác sĩ cần có lòng nhân ái, sự kiên nhẫn, cẩn thận, tinh thần trách nhiệm và không ngừng học hỏi để nâng cao tay nghề.
+
+          <h2>Định hướng tương lai</h2>
+          Em sẽ cố gắng học tập thật tốt để thi vào trường đại học y. Trong tương lai, em mong muốn trở thành một bác sĩ Răng Hàm Mặt giỏi, đóng góp cho xã hội và chăm sóc sức khỏe cho mọi người.
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <a href="https://vi.wikipedia.org/wiki/Nha_khoa" target="thongtin">
+            Tìm hiểu thêm về ngành Răng Hàm Mặt
+          </a>
+        </td>
+        <td>
+          <iframe name="thongtin" width="100%" height="200"></iframe>
+        </td>
+      </tr>
+    </table>
+
+    <div class="footer">
+      Bài tập hướng nghiệp – Tin học 12
+    </div>
+  </div>
+</body>
+</html>
