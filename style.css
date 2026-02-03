@@ -1,4 +1,4 @@
-/* RESET CƠ BẢN – TRÁNH TRÌNH DUYỆT / GITHUB GÂY LỖI */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -7,69 +7,82 @@
 
 /* BODY */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: #333333 !important;
-    background-color: #f4f8fb !important;
-    padding: 20px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+    padding: 30px;
+    color: #333;
 }
 
-/* FONT HIỆN ĐẠI */
+/* KHUNG NỘI DUNG */
 .modern-text {
-    font-family: "Segoe UI", Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 /* TIÊU ĐỀ CHÍNH */
 h1 {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #0d6efd !important;
     text-align: center;
-    margin-bottom: 20px;
+    font-size: 36px;
+    color: #0d6efd;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
 }
 
 /* TIÊU ĐỀ PHỤ */
 h2 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #198754 !important;
-    border-left: 5px solid #198754;
-    padding-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-size: 22px;
+    color: #198754;
+    margin: 25px 0 10px;
+    padding-left: 12px;
+    border-left: 6px solid #198754;
+    text-transform: capitalize;
 }
 
 /* ĐOẠN VĂN */
 p {
     font-size: 16px;
-    line-height: 1.6;
-    background-color: #ffffff !important;
-    padding: 12px;
-    border-radius: 6px;
-    margin-bottom: 10px;
+    line-height: 1.8;
+    background-color: #f8f9fa;
+    padding: 15px 18px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 5px solid #0d6efd;
 }
 
-/* CLASS ĐỊNH DẠNG CHỮ */
+/* LINK */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0d6efd;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #084298;
+}
+
+/* ĐỊNH DẠNG CHỮ */
 .bold {
     font-weight: bold;
-    color: #dc3545 !important;
+    color: #dc3545;
 }
 
 .italic {
     font-style: italic;
-    color: #6f42c1 !important;
+    color: #6f42c1;
 }
 
 .underline {
     text-decoration: underline;
-    color: #fd7e14 !important;
-}
-
-.line-through {
-    text-decoration: line-through;
-    color: #999999 !important;
+    color: #fd7e14;
 }
 
 .capitalize {
@@ -81,6 +94,7 @@ p {
 }
 
 .light-text {
-    color: #6c757d !important;
     font-size: 14px;
+    color: #6c757d;
+    margin-top: 25px;
 }
