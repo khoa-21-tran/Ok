@@ -1,9 +1,22 @@
+/* RESET CƠ BẢN – TRÁNH TRÌNH DUYỆT / GITHUB GÂY LỖI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: #333;
-    background-color: #f4f8fb;  
+    color: #333333 !important;
+    background-color: #f4f8fb !important;
     padding: 20px;
+}
+
+/* FONT HIỆN ĐẠI */
+.modern-text {
+    font-family: "Segoe UI", Tahoma, sans-serif;
 }
 
 /* TIÊU ĐỀ CHÍNH */
@@ -12,47 +25,51 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #0d6efd;         
+    color: #0d6efd !important;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* TIÊU ĐỀ PHỤ */
 h2 {
     font-size: 24px;
     font-weight: 600;
-    color: #198754;            
+    color: #198754 !important;
     border-left: 5px solid #198754;
     padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* ĐOẠN VĂN */
 p {
     font-size: 16px;
     line-height: 1.6;
-    background-color: #ffffff; 
-    padding: 10px;
+    background-color: #ffffff !important;
+    padding: 12px;
     border-radius: 6px;
+    margin-bottom: 10px;
 }
 
-/* CÁC CLASS ĐỊNH DẠNG */
-.italic {
-    font-style: italic;
-    color: #6f42c1;        
-}
-
+/* CLASS ĐỊNH DẠNG CHỮ */
 .bold {
     font-weight: bold;
-    color: #dc3545;         
+    color: #dc3545 !important;
+}
+
+.italic {
+    font-style: italic;
+    color: #6f42c1 !important;
 }
 
 .underline {
     text-decoration: underline;
-    color: #fd7e14;            
+    color: #fd7e14 !important;
 }
 
 .line-through {
     text-decoration: line-through;
-    color: #999;
+    color: #999999 !important;
 }
 
 .capitalize {
@@ -64,10 +81,6 @@ p {
 }
 
 .light-text {
-    color: #6c757d;             
+    color: #6c757d !important;
     font-size: 14px;
-}
-
-.modern-text {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
 }
