@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase; /* VIẾT HOA */
+    letter-spacing: 2px;        /* giãn chữ */
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #444;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6; /* giãn dòng */
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.light-text {
+    color: #999;
+}
+
+.modern-text {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
