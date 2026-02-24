@@ -11,10 +11,12 @@
 
 }
 .content{
-    
+    flex : 70%;
+    background-color : white;
 }
 .footer{
-
+    flex: 10%;
+    background-color : lightgray;
     
 }
 * {
