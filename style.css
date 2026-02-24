@@ -1,4 +1,22 @@
-/* RESET */
+.conterner{
+    display : flex;
+    
+}
+.header{
+    
+}
+.menu{
+    
+
+
+}
+.content{
+    
+}
+.footer{
+
+    
+}
 * {
     margin: 0;
     padding: 0;
