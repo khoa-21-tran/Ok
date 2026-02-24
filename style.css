@@ -1,22 +1,36 @@
-.conterner{
-    display : flex;
+.container{
+    display: flex;
     
 }
 .header{
-    
+    flex : 15%;
+    background-color : lightgray;
 }
 .menu{
-    
-
-
+    flex: 5%;
+    background-color : darkgray;
+}
+.menu a{
+    padding: 15px 20px;
+    color: pink;
+}
+.menu hover{
+    background-color: lightgray;
+    color: black;
 }
 .content{
-    flex : 70%;
+    flex: 70%;
     background-color : white;
+}
+.content inframe{
+    flex: 1;
+    border: none;
+    width: 100%;
+    
 }
 .footer{
     flex: 10%;
-    background-color : lightgray;
+    background-color: lightgray;
     
 }
 * {
@@ -25,7 +39,6 @@
     box-sizing: border-box;
 }
 
-/* BODY */
 body {
     font-family: "Segoe UI", Tahoma, sans-serif;
     background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
