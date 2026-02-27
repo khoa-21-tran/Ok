@@ -10,7 +10,7 @@
 .menu{
     flex: 5%;
     background-color : darkgray;
-    display: flex
+    display: flex;
 }
 .menu a{
     padding: 15px 20px;
@@ -31,7 +31,7 @@
     flex: 1;
     border: none;
     width: 100%;
-    height: 100%
+    height: 100%;
     
 }
 .footer{
@@ -51,8 +51,6 @@ body {
     padding: 30px;
     color: #333;
 }
-
-/* KHUNG NỘI DUNG */
 .modern-text {
     max-width: 900px;
     margin: auto;
@@ -61,8 +59,6 @@ body {
     border-radius: 14px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
-
-/* TIÊU ĐỀ CHÍNH */
 h1 {
     text-align: center;
     font-size: 36px;
@@ -72,7 +68,6 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* TIÊU ĐỀ PHỤ */
 h2 {
     font-size: 22px;
     color: #198754;
@@ -82,7 +77,6 @@ h2 {
     text-transform: capitalize;
 }
 
-/* ĐOẠN VĂN */
 p {
     font-size: 16px;
     line-height: 1.8;
@@ -93,7 +87,6 @@ p {
     border-left: 5px solid #0d6efd;
 }
 
-/* LINK */
 a {
     text-decoration: none;
     color: #ffffff;
@@ -108,7 +101,6 @@ a:hover {
     background-color: #084298;
 }
 
-/* ĐỊNH DẠNG CHỮ */
 .bold {
     font-weight: bold;
     color: #dc3545;
